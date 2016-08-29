@@ -3,6 +3,6 @@
 ## Layers, models & architecture
 
 * TCP/IP & OSI
-** ...
+ * ...
 
-*Protocols
+* Protocols
