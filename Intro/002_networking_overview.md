@@ -14,6 +14,8 @@
    7. Application
  * Layers are often named generically by `N` (i.e. "Layer N")
   * e.g. _Protocols_ are Layer-N to Layer-N; _Interfaces_ are Layer-N to Layer-N+1
+  * Layer N Protocol Data Unit (PDU) becomes layer N-1 Service Data Unit (SDU)
+  * Headers at each layer are prepended to the message
  * TCP/IP
    
 
