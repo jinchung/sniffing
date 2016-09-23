@@ -1,0 +1,6 @@
+{
+  "name": "Sniffing",
+  "tagline": "",
+  "body": "# General\r\n* Scope\r\n * Only layer 2 & above (assuming physical network infrastructure)\r\n* TCP/IP & OSI\r\n* Layers\r\n* Protocols\r\n * Protocol stacks\r\n* Message formatting\r\n * Headers\r\n * Payloads\r\n * Footers\r\n* Message addressing & transmission\r\n * Unicast\r\n * Broadcast\r\n * Multicast\r\n* Performance terminology\r\n * Speed\r\n * Bandwidth\r\n * Throughput\r\n * Latency\r\n* Standards & RFCs\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
