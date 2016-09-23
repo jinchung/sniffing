@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IP Networking Overview</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" rel="stylesheet" href="assets/style.css" />
+    <link type="text/css" rel="stylesheet" href="assets/pilcrow.css" />
+    <link type="text/css" rel="stylesheet" href="assets/hljs-github.min.css"/>
+  </head>
+<body><h1 id="ip-networking-overview"><a class="header-link" href="#ip-networking-overview"></a>IP Networking Overview</h1>
+<h2 id="layers-models-architecture"><a class="header-link" href="#layers-models-architecture"></a>Layers, models &amp; architecture</h2>
+<ul class="list">
+<li>TCP/IP &amp; OSI<ul class="list">
+<li>OSI model was an attempt at a basis for designing a universal set of network protocols</li>
+<li>The model should <em>not</em> be taken literally, but can be used as a useful guide in understanding TCP/IP<ol class="list">
+<li>Physical     (1)</li>
+<li>Data Link    (2)</li>
+<li>Network      (3)</li>
+<li>Transport    (4)</li>
+<li>Session      (5)</li>
+<li>Presentation (6)</li>
+<li>Application  (7)</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>Layers are often named generically by <code>N</code> (i.e. &quot;Layer N&quot;)<ul class="list">
+<li>e.g. <em>Protocols</em> are Layer-N to Layer-N; <em>Interfaces</em> are Layer-N to Layer-N+1</li>
+<li>Layer N Protocol Data Unit (PDU) becomes layer N-1 Service Data Unit (SDU)</li>
+<li>Headers at each layer are prepended to the message</li>
+</ul>
+</li>
+</ul>
+</body>
+</html>
